@@ -1,9 +1,21 @@
+# Visual Studio
 .vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build fajlovi
 *.exe
 *.obj
 *.pdb
 *.log
-*.suo
-*.user
-*.ipch
 *.VC.db
+*.ipch
+Debug/
+Release/
+
+# Ostalo
+*.tmp
+*.bak
+*.old
